@@ -1,4 +1,3 @@
-Clean Architecture,    Dann Test
-C Programming,    Dennis Ritchie
-Java Programming,    Steve François
-test,  jjj
+Clean Architecture, Dann Test
+C Programming, Dennis Ritchie
+Java Programming, Steve François
