@@ -80,6 +80,7 @@ public class Main {
             System.out.println("2- Borrow a book");
             System.out.println("3- Go back to the previous Menu");
             System.out.println("0- Quit");
+            member = new Member();
             UserChoice = scan.nextInt();
 
             switch (UserChoice){
@@ -92,6 +93,7 @@ public class Main {
                         System.out.println((i+1) + "- " + library.getListBooks().get(i).toString());
                     }
                     UserChoice = scan.nextInt();
+                    System.out.println(library.getListBooks().get(UserChoice -1 ));
                     member.borrowBook(library.getListBooks().get(UserChoice - 1));
                     break;
                 case 3:
